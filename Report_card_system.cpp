@@ -118,6 +118,7 @@ void download_report_card() {
         return;
     }
 
+    
     string line;
     bool found = false;
     while (getline(in, line)) {
